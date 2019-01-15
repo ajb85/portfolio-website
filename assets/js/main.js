@@ -14,16 +14,16 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 10
+				parallaxFactor: 1
 
 		};
 
 	// Breakpoints.
 		breakpoints({
 			wide:    [ '1081px',  '1680px' ],
-			normal:  [ '841px',   '1080px' ],
-			narrow:  [ '737px',   '840px'  ],
-			mobile:  [ null,      '736px'  ]
+			normal:  [ '951px',   '1080px' ],
+			narrow:  [ '551px',   '950px'  ],
+			mobile:  [ null,      '550px'  ]
 		});
 
 	// Mobile?
